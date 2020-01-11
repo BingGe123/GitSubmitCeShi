@@ -21,6 +21,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    UILabel *label = [UILabel new];
+    [self.view addSubview:label];
 }
 
 
