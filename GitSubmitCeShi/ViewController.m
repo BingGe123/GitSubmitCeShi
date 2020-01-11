@@ -23,6 +23,8 @@
     
     UILabel *label = [UILabel new];
     [self.view addSubview:label];
+    
+    label.text = @"label";
 }
 
 
